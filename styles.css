@@ -1,0 +1,88 @@
+body {
+  background: #87CEEB;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+}
+.step {
+  display: none;
+  padding: 15px;
+  padding-top: 0;
+}
+.step.active {
+  display: block;
+}
+.step .title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  line-height: 0em;
+  margin-top: 30px;
+}
+.first-step .info-proyecto h2 {
+  line-height: 1em;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.first-step .info-proyecto p {
+  font-weight: 300;
+}
+.step.seleccion {
+  text-align: center;
+}
+.step.seleccion img {
+  width: 49%;
+}
+#js-seleccion-cantidad {
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  height: 30px;
+  padding: 15px;
+  margin: 40px 0;
+}
+.js-home {
+  width: 50% !important;
+  margin-top: 15px;
+}
+header {
+  padding: 15px 15px 0 15px;
+}
+header .img-inti,
+header .img-reciclaje {
+  position: relative;
+  float: right;
+  width: 40px;
+}
+header .img-reciclaje {
+  float: left;
+}
+footer p {
+  border-top: 1px solid #fff;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+.btn {
+  background: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  border-radius: 20px;
+  display: inline-block;
+  width: 100%;
+}
+.resultado-box b,
+.resultado-box span {
+  font-size: 1.4rem;
+}
+.resultado-box span {
+  font-weight: 300;
+}

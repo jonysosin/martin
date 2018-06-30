@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link href="normalize.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="imagenes" style="overflow: hidden;">
+                <img src="img/inti.png" class="img-inti" alt="">
+                <img src="img/reciclaje.png" class="img-reciclaje" alt="">
+            </div>
+        </header>
+        <div data-step="1" class="step first-step active">
+            <h1 class="title">Reciclado de plástico</h1>
+            <img src="img/reciclar.jpg" style="max-width: 100%;" alt="">
+            <div class="info-proyecto">
+                <h2>Información del proyecto</h2>
+                <p>
+                    Se realiza a traves del INTI, un reciclado seguro y facilita e incentiva al usuario para llevar sus residiuos a los lugares mas cercanos de su zona.
+                </p>
+                <p style="text-transform: uppercase">Todo puede tener otra vida: ¡Recicla!</p>
+            </div>
+            <a href="#" class="btn js-btn-recicla">Recicla</a>
+        </div>
+        <div data-step="2" class="seleccion step">
+            <h1 class="title">Selección</h1>
+            <a href="#" class="js-seleccion" data-item-seleccion="vasos">
+                <img src="img/seleccion/vasos.jpeg" alt="">
+            </a>
+            <a href="#" class="js-seleccion" data-item-seleccion="tapitas">
+                <img src="img/seleccion/tapitas.jpg" alt="">
+            </a>
+            <a href="#" class="js-seleccion" data-item-seleccion="cajas">
+                <img src="img/seleccion/cajas.jpg" alt="">
+            </a>
+            <a href="#" class="js-seleccion" data-item-seleccion="bolsas">
+                <img src="img/seleccion/bolsas.jpg" alt="">
+            </a>
+        </div>
+        <div data-step="3" class="seleccion step">
+            <h1 class="title">¿Cantidad?</h1>
+            <input type="text" placeholder="Ingrese cantidad" id="js-seleccion-cantidad">
+            <a href="#" class="btn js-finalizar">Aceptar</a>
+            <a href="#" class="btn js-home">Volver</a>
+            <div id="js-resultado" class="resultado-box" style="display: none">
+                <h2>Resultado:</h2>
+                <p class="direccion">
+                    <div>
+                        <b style="margin-right: 10px">Dirección:</b><span id="direccion"></span>
+                    </div>
+                    <div>
+                        <b style="margin-right: 10px">Teléfono:</b><span id="telefono"></span>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <footer>
+            <p>
+                Para mas Información <a style="color: #fff; font-weight: bold" href="https://www.inti.gob.ar/plasticos/">haga click aquí</a>
+            </p>
+        </footer>
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="main.js"></script>
+</html>
